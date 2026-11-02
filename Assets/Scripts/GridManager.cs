@@ -62,4 +62,10 @@ public class GridManager : MonoBehaviour
         float worldY = y - 9.5f;
         return new Vector2(worldX, worldY);
     }
+    public Vector2 WorldToGridPosition(float worldX, float worldY)
+    {
+        int gridX = Mathf.RoundToInt(worldX + 7.0f);
+        int gridY = Mathf.RoundToInt(worldY + 9.5f);
+        return new Vector2(gridX, gridY);
+    }
 }

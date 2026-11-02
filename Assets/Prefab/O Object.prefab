@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -2022001923510852987}
   m_Layer: 0
   m_Name: O Object
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic
       objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -161,6 +165,10 @@ PrefabInstance:
     - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
       propertyPath: m_Name
       value: Basic (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -224,6 +232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -285,6 +297,10 @@ PrefabInstance:
     - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
       propertyPath: m_Name
       value: Basic (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9044072710933922159}
+  - component: {fileID: -3345450992029612748}
   m_Layer: 0
   m_Name: T Obejct
-  m_TagString: Untagged
+  m_TagString: GameObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,6 +36,19 @@ Transform:
   - {fileID: 6756672133957285757}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3345450992029612748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5191150051240296359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c813303f73a7b4aaf73114096169cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectController
+  objectFallingCircle: 1
 --- !u!1001 &3808428969308286850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86,6 +100,10 @@ PrefabInstance:
     - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
       propertyPath: m_Name
       value: Basic
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -149,6 +167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -211,6 +233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -272,6 +298,10 @@ PrefabInstance:
     - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
       propertyPath: m_Name
       value: Basic (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808012942929748176, guid: 4b9e093223c90134492f6e8d1ca6f696, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
